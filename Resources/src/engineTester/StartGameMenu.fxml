@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="441.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="engineTester.StartGameMenuController">
+   <children>
+      <Button fx:id="singleplayer" layoutX="73.0" layoutY="27.0" mnemonicParsing="false" onAction="#onClickSingleplayer" prefHeight="60.0" prefWidth="310.0" text="Singleplayer" />
+      <Button fx:id="multiplayer" layoutX="73.0" layoutY="116.0" mnemonicParsing="false" onAction="#onClickMultiplayer" prefHeight="60.0" prefWidth="310.0" text="Multiplayer" />
+      <Button fx:id="exit" layoutX="73.0" layoutY="264.0" mnemonicParsing="false" onAction="#onClickExit" prefHeight="60.0" prefWidth="310.0" text="Exit" />
+      <CheckBox fx:id="host" alignment="TOP_LEFT" contentDisplay="TOP" graphicTextGap="2.0" layoutX="286.0" layoutY="214.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="51.0" text="Host" />
+      <TextField fx:id="adress" layoutX="79.0" layoutY="210.0" promptText="ip" text="192.168.0.100" />
+      <Label layoutX="237.0" layoutY="214.0" text="IP" />
+   </children>
+</AnchorPane>
